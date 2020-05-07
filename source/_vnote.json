@@ -1,0 +1,22 @@
+{
+    "attachment_folder": "_v_attachments",
+    "created_time": "2020-04-08T02:20:26Z",
+    "files": [
+    ],
+    "image_folder": "",
+    "recycle_bin_folder": "_v_recycle_bin",
+    "sub_directories": [
+        {
+            "name": "_posts"
+        },
+        {
+            "name": "about"
+        },
+        {
+            "name": "archive"
+        }
+    ],
+    "tags": [
+    ],
+    "version": "1"
+}
