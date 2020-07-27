@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "http://keltoy.github.io"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -22,7 +22,7 @@ paginate     = 10
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
   keywords = "homepage, blog"
-  images = [""]
+  images = ["/background-cover.jpg"]
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
