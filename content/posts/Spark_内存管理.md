@@ -37,34 +37,12 @@ sequenceDiagram
     Bob-->John: Jolly good!
 {{< /mermaid >}}
 
-sdfasdfasdfadsf
 fasdfsdfdsf
-{{< gravizo "DOT Language (ddd) Example" >}}
-
-@startuml;
-
-actor User;
-participant "First Class" as A;
-participant "Second Class" as B;
-participant "Last Class" as C;
-
-User -> A: DoWork;
-activate A;
-
-A -> B: Create Request;
-activate B;
-
-B -> C: DoWork;
-activate C;
-
-C --> B: WorkDone;
-destroy C;
-
-B --> A: Request Created;
-deactivate B;
-
-A --> User: Done;
-deactivate A;
-
-@enduml
-{ {< /gravizo >}}
+{{< gravizo "DOT Language (GraphViz) Example" >}}
+@startuml
+* Debian
+** Ubuntu
+*** KDE Neon
+** LMDE
+@startuml
+{{< /gravizo >}}
