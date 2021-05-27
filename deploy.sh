@@ -18,7 +18,7 @@ fi
 git push origin master
 
 if [ $? -ne 0 ]; then 
-then "Push failed"
+  echo "Push failed"
 fi
 
 echo "Deploying github..."
