@@ -22,27 +22,3 @@ Spark是基于内存的计算引擎，就是说它高效的使用了分布式节
 
 
 # 总结
-
-{{< mermaid >}}
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->John: Hello John, how are you?
-    loop Healthcheck
-        John->John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail...
-    John-->Alice: Great!
-    John->Bob: How about you?
-    Bob-->John: Jolly good!
-{{< /mermaid >}}
-
-fasdfsdfdsf
-{{< gravizo "DOT Language (GraphViz) Example" >}}
-@startuml
-* Debian
-** Ubuntu
-*** KDE Neon
-** LMDE
-@startuml
-{{< /gravizo >}}
