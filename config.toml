@@ -58,3 +58,9 @@ paginate     = 10
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+
+[params.gitment] # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+owner = "keltoy" # Your GitHub ID
+repo = "comments" # The repo to store comments
+clientId = "e3223665cb18561b6b11" # Your client ID
+clientSecret = "29ff31df8f97ea3fac6397fc615be8956751504e" # Your client secret
